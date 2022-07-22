@@ -49,3 +49,30 @@ body {
   border: none;
   cursor: default;
 }
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 15rem;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+}
+
+.social-links img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.social-links {
+  margin-left: 50px;
+}
