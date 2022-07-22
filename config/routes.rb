@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'pages#welcome'
-  get 'portfolio' => 'pages#portfolio'
+  root 'pages#welcome', as: :home
+  get 'portfolio' => 'pages#portfolio', as: :portfolio
 end
