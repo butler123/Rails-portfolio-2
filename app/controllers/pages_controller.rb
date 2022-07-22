@@ -4,4 +4,6 @@ class PagesController < ApplicationController
   def portfolio
     @buildings = Building.all
   end
+  def about
+  end
 end
