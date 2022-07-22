@@ -59,8 +59,7 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 10px;
-  position: absolute;
-  bottom: 15rem;
+  bottom: 0;
   width: 100%;
 }
 
@@ -75,4 +74,21 @@ body {
 
 .social-links {
   margin-left: 50px;
+}
+
+.buildings img {
+  width: 30%;
+  padding-top: 30px;
+}
+
+.my-work {
+  padding-top: 30px;
+}
+
+.container {
+  // display: flex;
+  // flex-direction: column;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
